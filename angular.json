@@ -18,7 +18,7 @@
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
-            "prerender": false,
+            
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -56,8 +56,7 @@
               "outputHashing": "all",
               "ssr": {
                 "entry": "src/server.ts"
-              },
-              "prerender": false
+              }
             },
             "development": {
               "optimization": false,
